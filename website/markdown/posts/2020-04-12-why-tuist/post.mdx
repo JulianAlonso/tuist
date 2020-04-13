@@ -26,7 +26,7 @@ Despite having done our best to convey the idea behind Tuist,
 and why it's an important piece when scaling up projects,
 I feel we lacked a good summary
 
-### Make your projects consistent
+## Make your projects consistent
 
 After bootstrapping new projects and targets in Xcode,
 it's up to the developers to ensure that projects are consistently configured and structured.
@@ -72,7 +72,9 @@ let project = Project.featureFramework(name: "Seach")
 
 > Note how idiomatic and concise the definition of projects is ― your project is defined in one line.
 
-### Streamlined workflows
+## Dependencies
+
+## And more yet to come...
 
 The benefit of having a knowledge on your project is that we can provide very streamlined workflows that leverage Apple's building blocks _(e.g. `xcodebuild`, `simctl`)_.
 Here are some of the features that we are planning,
@@ -98,4 +100,13 @@ and that you'll be able to opt-in easily if you are already using Tuist:
 
 ## Some final words
 
-We are weirdly excited about the power of project generation.
+At Tuist, we are aminig to help teams be **productive working with projects of any scale**.
+
+We are aware that not all the projects can have a tooling or infrastructure team,
+and for that reason we are designing features optimizing for _(almost)_ **zero configuration** on your end.
+Instead of having to depend on many tools to do your job _(e.g. project generators, [Fastlane](https://docs.fastlane.tools/), [Rake](https://github.com/ruby/rake), documentation generator)_,
+you'll depend on just one that will make your projects the source of truth,
+and derive workflows from there.
+
+Project generation is necessary to simplify Xcode's intricacies and provide user-oriented workflows,
+but it's not our end goal.
